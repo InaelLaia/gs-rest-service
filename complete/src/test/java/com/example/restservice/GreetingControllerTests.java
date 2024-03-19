@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 package com.example.restservice;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -33,6 +34,8 @@ public class GreetingControllerTests {
 
 	@Autowired
 	private MockMvc mockMvc;
+
+	 /* Eu como testador do software gs-rest-service desejo que a classe GreetingControllerTests tenha todos os seus métodos comentados com a descrição do objetivo do teste unitário do referido método. */
 
 	@Test
 	public void noParamGreetingShouldReturnDefaultMessage() throws Exception {
